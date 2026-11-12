@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+zestawy/
+*.pem
+test*.pem
