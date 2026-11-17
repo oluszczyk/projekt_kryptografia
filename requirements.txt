@@ -1,0 +1,7 @@
+jupyter
+gmpy2
+pytest
+pandas
+matplotlib
+cryptography
+pycryptodome
