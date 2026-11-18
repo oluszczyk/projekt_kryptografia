@@ -17,7 +17,6 @@ def runda(n, a, s, d):
         x = pow(x, 2, n)
         if x == n-1: return True
         elif x == 1: return False
-        s -= 1
 
     return False
 
