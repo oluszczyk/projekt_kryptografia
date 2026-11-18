@@ -6,8 +6,6 @@ from generators import stworz_pule
 from cryptography.hazmat.primitives.asymmetric import rsa
 from cryptography.hazmat.primitives import serialization
 
-rng = random.Random(124)
-
 def generuj_klucz(nazwa, bity, ziarno=None, pula=None):
     k = bity//2
     p, q = generator(nazwa, k, ziarno, pula)
